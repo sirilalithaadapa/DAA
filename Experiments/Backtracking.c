@@ -24,7 +24,8 @@ printf("\n All possible solutions are\n");
 for(m=1;m<=n;m++)
 {
 if(c==1)
-{ break; }
+{ break; 
+}
 graphcoloring(1);
 }
 printf("\n chromatic number is %d",m-1);
